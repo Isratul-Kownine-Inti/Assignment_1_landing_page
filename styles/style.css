@@ -5,3 +5,8 @@
 body{
     font-family: "Montserrat", sans-serif;
 } 
+
+.card:focus-within {
+    z-index: 10;
+    position: relative;
+  }
